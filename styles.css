@@ -122,7 +122,7 @@ h2 {
 @media only screen and (max-width: 767px) {
 
   .left-center-content {
-    width: 400px;
+    width: 360px;
   }
 
   h1 {
@@ -130,7 +130,7 @@ h2 {
   }
 
   h2 {
-    font-size: 1.3em;
+    font-size: 1.25em;
   }
 
 }
