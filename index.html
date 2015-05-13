@@ -1,0 +1,39 @@
+<!doctype HTML>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <script src="scripts/scripts.js"></script>
+
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="scripts/typed.js"></script>
+
+  <script src="//use.typekit.net/owh2pvg.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  <script>
+    $(function(){
+        $(".animated-header").typed({
+          strings: ["<h1>**cool**_nice_</h1>"],
+          showCursor: false,
+          typeSpeed: 100,
+          onStringTyped: setTimeout(function(){
+            $(".animated-header").html("<h1><strong>cool</strong><em>nice</em></h1>");
+          }, 2750),
+        });
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="left-center-content">
+    <div class="animated-header">
+      <h1>coolnice</h1>
+    </div>
+    <h2>coolnice designs and builds things for computers and telephones</h2>
+  </div>
+</body>
+
+
+<!-- if I didn't add a contact form yet just email me: coolnice at johndonmoyer dot com -->
