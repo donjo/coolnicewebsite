@@ -162,6 +162,11 @@ input[type=submit]{
   outline: none;
 }
 
+input[type=submit]:hover{
+  background-color: rgba(254, 254, 254, 0.95);
+  color: #40a1ff; 
+}
+
 
 
 .typed-cursor{
