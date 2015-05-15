@@ -85,13 +85,84 @@ h2 {
   line-height: 1.3em;
 }
 
-.left-center-content {
+.center-content {
   width: 500px;
   position: relative;
   top: 33%;
   margin: 0 auto;
   text-align: center;
 }
+
+.contact {
+  margin-top: 40px;
+}
+
+.contact-btn{
+  background-color: transparent;
+  border: 3px solid #fefefe;
+  padding: 0.9em 2.33em;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #fefefe;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact-btn:hover {
+  background-color: rgba(254, 254, 254, 0.95);
+  color: #40a1ff;
+}
+
+#contact-form {
+  display: none;
+}
+
+input {
+  margin: 6px 0;
+}
+
+textarea{
+  color: #888;
+  margin: 6px 0;
+  border: 2px solid #fefefe;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 700;
+  width: 418px;
+  height: 180px;
+}
+
+
+input[type=text]{
+  color: #888;
+  border: 2px solid #fefefe;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+input[type=email]{
+  color: #888;
+  border: 2px solid #fefefe;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+input[type=submit]{
+  background-color: transparent;
+  border: 3px solid #fefefe;
+  padding: 0.5em 2em;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #fefefe;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+
 
 .typed-cursor{
   display: inline-block;
@@ -121,7 +192,7 @@ h2 {
 
 @media only screen and (max-width: 767px) {
 
-  .left-center-content {
+  .center-content {
     width: 360px;
   }
 
@@ -131,6 +202,10 @@ h2 {
 
   h2 {
     font-size: 1.25em;
+  }
+
+  textarea {
+    width: 318px;
   }
 
 }
